@@ -8,27 +8,25 @@ A simple C++ game inspired by Flappy Bird with sound effects.
 How to Build and Run
 --------------------
 
-1. Clone the repository:
+Clone the repository:
    
-   ```bash
-   git clone https://github.com/MohamedBechirTorki/Flappy-Ball
-   cd Flappy-Ball
-
-
-3. Build the project:
+```bash
+git clone https://github.com/MohamedBechirTorki/Flappy-Ball
+cd Flappy-Ball
+```
+Build the project:
    
-   ```bash
+```bash
    cmake -S . -B build
    cmake --build build
+```
+Run the game:
 
-
-5. Run the game:
-   
-   ```bash
+```bash
    cd build
+   cp -r ../assets .
    ./FlappySound
-
-
+```
 ---
 
 Notes
