@@ -17,15 +17,14 @@ cd Flappy-Ball
 Build the project:
    
 ```bash
-   cmake -S . -B build
-   cmake --build build
+cmake -S . -B build
+cmake --build build
 ```
 Run the game:
 
 ```bash
-   cd build
-   cp -r ../assets .
-   ./FlappySound
+cd build
+./FlappySound
 ```
 ---
 
