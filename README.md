@@ -9,19 +9,25 @@ How to Build and Run
 --------------------
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/MohamedBechirTorki/Flappy-Ball
    cd Flappy-Ball
 
+
 3. Build the project:
+   
    ```bash
    cmake -S . -B build
    cmake --build build
 
+
 5. Run the game:
+   
    ```bash
    cd build
    ./FlappySound
+
 
 ---
 
